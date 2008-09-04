@@ -1,0 +1,58 @@
+gtkcdlabel
+------------------------------------------
+gtkcdlabel is a GUI frontend to cdlabelgen which is a program that 
+can generate a variety of CD tray covers.
+
+Runtime requirements:
+  ImageMagick
+  python-2.5.2-3
+  python-cddb-1.4-1
+  python-gobject2-2.14.2-1
+  python-gtk2-2.12.1-1
+  python-id3-1.2-1
+
+Build requirements:
+  cygport-0.4.0-1
+
+Canonical website:
+  http://gtkcdlabel.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtkcdlabel/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtkcdlabel-1.12-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtkcdlabel-1.12-X.cygport all
+
+This will create:
+  /usr/src/gtkcdlabel-1.12-X-src.tar.bz2
+  /usr/src/gtkcdlabel-1.12-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gtkcdlabel.py
+  /usr/share/applications/gtkcdlabel.desktop
+  /usr/share/doc/gtkcdlabel-1.12/AUTHORS
+  /usr/share/doc/gtkcdlabel-1.12/COPYING
+  /usr/share/doc/gtkcdlabel-1.12/README
+  /usr/share/doc/gtkcdlabel-1.12/gtkcdlabel.spec
+  /usr/share/gtkcdlabel/gtkcdlabel.glade
+  /usr/share/pixmaps/gtkcdlabel.xpm
+
+------------------
+
+Port Notes:
+
+----- version 1.12-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

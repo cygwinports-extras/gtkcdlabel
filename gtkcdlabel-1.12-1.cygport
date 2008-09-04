@@ -1,0 +1,12 @@
+DESCRIPTION="GTK+ frontend for cdlabelgen"
+HOMEPAGE="http://gtkcdlabel.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+SRC_DIR="."
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	cp -r usr/ ${D}/
+	mv ${D}/usr/share/doc/${PN}{,-${PV}}
+}

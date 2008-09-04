@@ -1,0 +1,5 @@
+category: Publishing
+requires: ImageMagick python python-cddb python-gobject2 python-gtk2 python-id3
+sdesc: "GTK+ GUI for cdlabelgen"
+ldesc: "gtkcdlabel is a GUI frontend to cdlabelgen which is a program that
+can generate a variety of CD tray covers."
